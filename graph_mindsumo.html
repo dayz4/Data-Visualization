@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- This file uses the D3 and jQuery JavaScript libraries. Their copyright notices
+and license information are provided either inside their file or as a separate
+LICENSE file. -->
+
+<html>
+	<head>
+		<style>
+			body {
+				background-color: #F5F5F5;
+			}
+			div {
+				position: absolute;
+				pointer-events: none;
+				display: inline-block;
+				padding: 5px;
+				border-radius: 10px;
+			}
+
+			.checkbox {
+				position: relative;
+				display: inline;
+				clear: both;
+			}
+		</style>
+  	</head>
+
+	<body>
+		s1: <input type="checkbox" id="s1" checked = true/>
+		t1: <input type="checkbox" id="t1" checked = true/>
+		t2: <input type="checkbox" id="t2"/>
+		<br>
+		s2: <input type="checkbox" id="s2"/>
+		t3: <input type="checkbox" id="t3"/>
+		t4: <input type="checkbox" id="t4"/>
+		<br>
+
+		<script type="text/javascript" src="d3.min.js"></script>
+		<script type="text/javascript" src="jquery-1.12.0.min.js"></script>
+		<script type="text/javascript" src="graph_mindsumo_json.js"></script>
+		<script type="text/javascript" src="graph_mindsumo_json_2.js"></script>
+		<script type="text/javascript" src="graph_mindsumo_partition.js"></script>
+	</body>
+</html>

@@ -1,5 +1,7 @@
 # Data-Visualization
 
+Live version: http://daisyzheng.me/visualization.html
+
 ~ Winner of the "Create a data visualization to navigate educational standards" challenge on Mindsumo. ~
 
 A visualization of educational standards and the "crosswalks" between them. This is designed as a tool to help teachers and other educational workers design well-rounded curriculums that best encompass the skills that children need to learn in order to succeed.
